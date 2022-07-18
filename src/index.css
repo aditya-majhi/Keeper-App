@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  color: white;
+  background-color: rgb(255, 217, 0);
+  font-size: 2rem;
+  padding: 10px;
+}
+.note{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px gray ;
+  width: 305px;
+  margin: 20px;
+  border-radius: 7px;
+  padding: 12px;
+}
+.note input,
+.note textarea{
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 3px;
+  font-size: 1.2rem;
+}
+.note input::placeholder{
+  font-size: 1.2rem;
+}
+.note textarea::placeholder{
+  font-size: 1.2rem;
+}
+.note-block button{
+  position: relative;
+    bottom: 40px;
+    left: 300px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(255, 217, 0);
+}
+
+.note-item{
+  box-shadow: 2px 2px 12px grey;
+    display: inline-block;
+    width: 230px;
+    height: 120px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 10px;
+}

@@ -8,6 +8,11 @@
   font-size: 2rem;
   padding: 10px;
 }
+
+.note-block{
+  display: flex;
+  justify-content: center;
+}
 .note{
   display: flex;
   flex-direction: column;
@@ -23,33 +28,55 @@
   outline: none;
   resize: none;
   padding: 3px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-family: 'PT Sans', sans-serif;
 }
 .note input::placeholder{
   font-size: 1.2rem;
+  font-family: 'Edu TAS Beginner', cursive;
 }
 .note textarea::placeholder{
   font-size: 1.2rem;
+  font-family: 'Edu TAS Beginner', cursive;
 }
 .note-block button{
   position: relative;
-    bottom: 40px;
-    left: 300px;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    outline: none;
-    border: none;
-    color: white;
-    background-color: rgb(255, 217, 0);
+  bottom: -28px;
+  left: 270px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(255, 217, 0);
 }
 
 .note-item{
   box-shadow: 2px 2px 12px grey;
-    display: inline-block;
-    width: 230px;
-    height: 120px;
-    padding: 10px;
-    margin: 25px;
-    border-radius: 10px;
+  display: inline-block;
+  width: 230px;
+  height: 120px;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 10px;
+}
+.note-item h1{
+  font-size: 1.3rem;
+  padding: 5px 2px;
+  font-family: 'Merriweather', serif;
+}
+.note-item p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 3px 7px;
+  font-family: 'Nunito', sans-serif;
+}
+.note-item button{
+  position: relative;
+  top: 25px;
+  left: 170px;
+  border: none;
+  background-color: white;
+  color:  rgb(255, 217, 0);;
 }

@@ -12,7 +12,7 @@ function Note(props) {
         <div className='note-item'>
             <h1>{props.note}</h1>
             <p>{props.para}</p>
-            <Button variant='text' onClick={handleClick}><DeleteIcon /></Button>
+            <Button onClick={handleClick}><DeleteIcon /></Button>
         </div>
     );
 }
